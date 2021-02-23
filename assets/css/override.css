@@ -1,0 +1,58 @@
+p {
+    font-size: 18px;
+    letter-spacing: .75px;
+}
+
+.header-section {
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    position: relative;
+}
+
+.header-content {
+    padding: 0;
+}
+
+.header-texts {
+    padding-top: 120px;
+}
+
+.header-texts p {
+    font-size: 22px;
+}
+
+.header-section .button {
+    box-shadow: 0 8px 32px 0 rgba(132, 132, 134, 0.37);
+}
+
+.gradiant-background {
+    background-color: #ffffff;
+}
+
+.about-section {
+    padding: 9rem 0;
+}
+
+.steps {
+    border-radius: 8px;
+}
+
+.navbar-default .in .navbar-nav > li > a:after, .navbar-default .navbar-nav > li > a:after, .affix .navbar-default .navbar-nav > li > a:after  {
+    background: #BCBB32;
+}
+
+.nav a.button:hover {
+    border: 2px solid #BCBB32 !important;
+    color: #BCBB32 !important;
+}
+
+.nav-item {
+    color: #555 !important;
+}
+
+.navigation {
+    padding: 14px 0 !important;
+}
