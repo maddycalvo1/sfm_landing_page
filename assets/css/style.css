@@ -28,6 +28,9 @@ Updated	 :	10.22.2018
  * Best to write own code in css/theme.css file. 
  **/
 /* 01. RESET CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -175,24 +178,25 @@ img{
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing:0.01em;
 	font-weight:300;
-	color: #333;
+	color: #424242;
 }
 .font-primary, p.lead {
-	font-family: 'Open Sans', sans-serif;
-}
+	font-family: 'Quicksand', sans-serif;}
+
 .font-secondary {
 	font-family: 'Quicksand', sans-serif;
 }
+
 p, ul, ol, blockquote, table {
 	margin-bottom: 18px;
 }
 h1,.h1, h2,.h2, h3,.h3, h4,.h4, h5,.h5, h6,.h6 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Merriweather', serif;
 	line-height: 1.25;
 	font-weight: 700;
 	margin-bottom: 28px;
@@ -1560,6 +1564,11 @@ label.error {
 .navbar-nav > li > .dropdown-menu{
 	padding: 0;
 }
+
+.nav-item {
+	text-transform: uppercase;
+}
+
 .nav-item:before{
 	position:absolute;
 	content:"";

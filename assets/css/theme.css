@@ -1,6 +1,6 @@
 /*!
 Template :	AppsLand @by Softnio
-Preset   :	Default
+Preset   :	Royel Teal
 Version	 :	1.3.1
 Updated	 :	10.22.2018
 */
@@ -20,29 +20,22 @@ Updated	 :	10.22.2018
 .social-list li a:hover,
 .owl-theme .owl-nav [class*="owl-"]:hover,
 .footer-links li a:hover{
-	color:#1F65DB;
+	color: #D0CD29;
 }
 
-.pricing-bottom .ti-check{
-	color:#00d578;
-}
-
-.pricing-bottom .ti-close{
-	color:#de0000;
-}
 
 .owl-theme .owl-dots .owl-dot span:after,
 .affix .navbar-default .navbar-toggle, 
 .affix .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	border-color:#1F65DB;
+	border-color: #D0CD29;
 }
 .primary-bg{
-	background: #1F65DB;
+	background: #D0CD29;
 }
 .secondary-bg{
-	background: #ED355B;
+	background: #7D7B19;
 }
 .owl-theme .owl-dots .owl-dot.active span, 
 .owl-theme .owl-dots .owl-dot:hover span,
@@ -50,104 +43,50 @@ Updated	 :	10.22.2018
 .affix .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background: #1F65DB;
+	background: #D0CD29;
 }
 .button{
-	background: #FA3821;
+	background: #D0cD29;
 }
 .button:hover {
-	background: #1F65DB;
+	background: #7D7B19;
 }
 .header-texts .button{
-	background: #FA3821;
+	background: #D0cD29;
 	color: #fff;
 }
 .header-texts .button:hover {
 	background: #fff;
-	color: #FA3821;
+	color: #D0cD29;
 }
 .button.button-transparent{
 	background:transparent;
 }
 .button.button-transparent:hover{
 	background: #fff;
-	color: #FA3821;
+	color: #D0cD29;
 	border-color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a.button,
 .navbar-default .navbar-nav > li > a.button:focus{
-	border:2px solid #FA3821;
-	background: #FA3821;
+	border:2px solid #D0cD29;
+	background: #D0cD29;
 }
 .navbar-default .navbar-nav > li > a.button:hover{
-	color: #FA3821;
+	color: #D0cD29;
 }
 .affix .navbar-default .navbar-nav > li > a.button:hover,
 .affix .navbar-default .navbar-nav > li.active > a.button,
 .affix .navbar-default .navbar-nav > li.active > a.button:focus{
-	color: #FA3821;
-	border-color: #FA3821;
+	color: #D0cD29;
+	border-color: #D0cD29;
 }
 
 .gradiant-background,
+.bg-gradiant.mfp-bg,
 .box-icon,
 .team-member .team-photo:after{
-	background-image: -o-linear-gradient(157deg, #ED355B 0%, #1F65DB 100%);
-	background-image: linear-gradient(293deg, #ED355B 0%, #1F65DB 100%);
-}
-.meta-heading{
-	color: #1F65DB;
-	margin-bottom: 5px;
-}
-.feature-col .icon{
-	background: #F2F7FF;
-	color: #1F65DB;
-}
-.button.alt{
-	background: #fff;
-	color: #1F65DB;
-}
-.button.alt:hover{
-	background: #1F65DB;
-	color: #fff;
-}
-.button.light{
-	background: #F2F7FF;
-	color: #1F65DB;
-}
-.button.light:hover{
-	background:#00deec; 
-	color: #fff;
-}
-.bg-circle .small, .bg-circle .big{
-	background: #F2F7FF;
-}
-.bg-circle .big:before{
-	background-image: -o-linear-gradient(157deg, #fff 0%, #ED355B 100%);
-	background-image: linear-gradient(157deg, #fff 0%, #ED355B 100%);
-}
-.bg-circle .big:after{
-	background-image: -o-linear-gradient(157deg, #fff 0%, #1F65DB 100%);
-	background-image: linear-gradient(157deg, #fff 0%, #1F65DB 100%);
-}
- .pricing-box.alt h5{
- 	color: #1F65DB;
- }
-
-@media only screen and (max-width: 991px) {
-	.navbar-default .in .navbar-nav > li > a:hover,
-	.navbar-default .in .navbar-nav > li > a:focus,
-	.affix .navbar-default .navbar-nav > li > a:hover,
-	.affix .navbar-default .navbar-nav > li > a:focus,
-	.affix .navbar-default .navbar-nav > .active > a, 
-	.affix .navbar-default .navbar-nav > .active > a:hover, 
-	.affix .navbar-default .navbar-nav > .active > a:focus {
-		background:#1F65DB;
-	}
-
-}
-
-.theme-pro .section.gradiant-background{
-	background: #ecf4fd;
+	background-image: -o-linear-gradient(157deg, #d6d68b 0%, #BCBB32 100%);
+	background-image: linear-gradient(293deg, #d6d68b 0%, #BCBB32 100%);
 }
