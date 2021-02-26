@@ -2329,14 +2329,7 @@ label.error {
 		padding-left: 0;
 		padding-right:0;
 	}
-	.single-features{
-		text-align:center;
-		padding-left:0;
-	}
-	.single-features .ti{
-		position:relative;
-		margin-bottom:20px;
-	}
+
 	.features-section .pull-right{
 		float:none !important;
 	}

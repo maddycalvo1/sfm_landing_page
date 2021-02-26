@@ -89,6 +89,7 @@ nav .container {
 
 .term-section figure {
     margin-bottom: 1.75rem;
+    font-size: 12px;
 }
 
 .container {
@@ -132,6 +133,26 @@ nav .container {
     padding-top: 0;
 }
 
+.nav-sticky {
+    position: sticky !important;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.single-features p {
+    font-size: 14px;
+}
+
+ol, ul {
+    list-style: initial;
+    margin-left: 1.75rem;
+}
+
 @media only screen and (max-width: 991px) {
     .desktop-header {
         background-image: none;
@@ -163,5 +184,10 @@ nav .container {
 
     .about-section {
         padding-top: 100px;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
