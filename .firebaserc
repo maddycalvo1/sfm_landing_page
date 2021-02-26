@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "sfm-dev",
+    "prod": "sfm-prod",
+    "staging": "sfm-dev"
+  }
+}
