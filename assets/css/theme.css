@@ -23,6 +23,18 @@ Updated	 :	10.22.2018
 	color: #D0CD29;
 }
 
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 
 .owl-theme .owl-dots .owl-dot span:after,
 .affix .navbar-default .navbar-toggle, 
