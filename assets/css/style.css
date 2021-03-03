@@ -115,6 +115,18 @@ img{
 	max-width:100%;
 }
 
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 
 /* 02. Fonts CSS */
 @font-face {
