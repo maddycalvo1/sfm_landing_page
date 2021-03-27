@@ -7,20 +7,20 @@
           ".write": "$userid == auth.uid"
         },
         "blocked": {
-          // Anyone can add themself to to this user's followers list.
+          
           "$blockerid": {
             ".validate": "root.child('users').hasChild($blockerid)",
             ".write": "auth.uid !== null"
           }
         },
         "blocks": {
-          // Anyone can add themself to to this user's followers list.
+          
           "$blockerid": {
             ".write": "$blockerid == auth.uid"
           }
         },
         "chatUsers": {
-          // Anyone can add themself to to this user's followers list.
+          
           "$userid": {
             ".validate": "root.child('users').hasChild($userid)",
             ".read": "$userid == auth.uid",
@@ -34,40 +34,40 @@
           }
         },
         "following": {
-          // The following list should only contain actual ids from the "users" list.
+          
           "$followingid": {
             ".validate": "root.child('users').hasChild($followingid)",
             ".write": "auth !== null && !root.child('users/' + auth.uid + '/blocked').hasChild($followingid)"
           }
         },
         "followers": {
-          // Anyone can add themself to to this user's followers list.
+          
           "$followerid": {
             ".write": "$followerid == auth.uid"
           }
         },
         "winkedAt": {
-          // The following list should only contain actual ids from the "users" list.
+          
           "$winkedId": {
             ".validate": "root.child('users').hasChild($winkedId)",
             ".write": "auth !== null && !root.child('users/' + auth.uid + '/blocked').hasChild($winkedId)"
           }
         },
         "winks": {
-          // Anyone can add themself to to this user's followers list.
+         
           "$winker": {
             ".write": "$winker == auth.uid"
           }
         },
         "notifications": {
-          // Anyone can add themself to to this user's followers list.
+          
           "$notifier": {
             ".write": "auth.uid !== null"
           }
         },
         "feed": {
           "$sparkid": {
-            // User A can write in user B's feed, but only if A is following B, and only for sparks for which they are the author.
+           
             ".write": "root.child('users/' + $userid + '/following').hasChild(auth.uid) && root.child('sparks/' + $sparkid + '/author').val() ==auth.uid"
           },
           ".indexOn": ["createdAt", "author"]
@@ -95,13 +95,13 @@
       }
     },
     "sparks": {
-      // A global list of sparks (the "firehose").
+      
       "$sparkid": {
-        // Modifying an existing spark is not allowed.
+    
         ".write": "!data.exists()",
-        // Every spark should have an author and a body.
+       
         ".validate": "newData.hasChildren(['author', 'content'])",
-        // A user can attribute a spark only to themselves.
+        
         "author": {
           ".validate": "newData.val() ==auth.uid"
         },
